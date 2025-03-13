@@ -1,37 +1,49 @@
+/* Định dạng tổng thể */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #c29884, #ec1014);
+    color: #fff;
+    text-align: center;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
+
+/* Container chính */
 .container {
-    background: white;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.2);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
 }
-h1 {
-    color: #333;
+
+/* Ảnh đại diện */
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin: 10px auto;
 }
-p {
-    color: #555;
-}
-ul {
+
+/* Danh sách liên hệ */
+.contact {
     list-style: none;
     padding: 0;
 }
-li {
-    margin: 10px 0;
+
+.contact li {
+    margin: 5px 0;
 }
+
+/* Link */
 a {
+    color: #fbd786;
     text-decoration: none;
-    color: #007BFF;
+    font-weight: bold;
 }
+
 a:hover {
     text-decoration: underline;
 }
